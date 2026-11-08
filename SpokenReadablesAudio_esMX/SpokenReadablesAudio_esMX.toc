@@ -1,0 +1,13 @@
+﻿## Interface: 30300
+## Title: |cffb48cffSpoken|r Spanish (AL) Audio: Readables
+## Notes: Narrated books, letters, notes and plaques for Spoken Readables.|n|nKeep it enabled: it loads with the game, and Spoken Readables plays from it.
+## Version: 2.0.8
+## Author: rusty
+## IconTexture: Interface\AddOns\SpokenReadablesAudio_esMX\Textures\AddonIcon.tga
+## Group: Spoken
+## X-Part-Of: Spoken
+## X-Child-Of: Spoken_Readables
+## X-License: Audio generated with ElevenLabs from book text extracted from the game.
+
+Data/Sounds.lua
+
