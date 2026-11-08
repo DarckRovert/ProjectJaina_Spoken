@@ -1,0 +1,9 @@
+<Bindings>
+    <!--
+        Keys for the queue, in a Spoken category of the game's key bindings.
+    -->
+    <Binding name="SPOKEN_PLAYPAUSE" header="SPOKEN">SlashCmdList.SPOKEN("play")</Binding>
+    <Binding name="SPOKEN_SKIP">SlashCmdList.SPOKEN("skip")</Binding>
+    <Binding name="SPOKEN_STOP">SlashCmdList.SPOKEN("stop")</Binding>
+    <Binding name="SPOKEN_COMPENDIUM">SlashCmdList.SPOKEN("compendium")</Binding>
+</Bindings>

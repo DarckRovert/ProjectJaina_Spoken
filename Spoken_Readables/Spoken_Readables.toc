@@ -1,0 +1,47 @@
+## Interface: 30300
+## Title: |cffffd10dSpoken|r |cff66ccffReadables (TuWoW)|r
+## Notes: Libros, cartas, notas y placas leÃ­dos en voz alta a travÃ©s de Spoken (TuWoW).
+## Notes-esES: Libros, cartas, notas y placas leÃ­dos en voz alta a travÃ©s de Spoken (TuWoW).
+## Notes-esMX: Libros, cartas, notas y placas leÃ­dos en voz alta a travÃ©s de Spoken (TuWoW).
+## Version: 3.8.3
+## Author: rusty
+## SavedVariables: SpokenReadablesSettings, SpokenBooksSettings
+## SavedVariablesPerCharacter: SpokenReadablesCharacter, SpokenBooksCharacter
+# Two tables, because they answer different questions. SpokenReadablesSettings is how you like the
+# addon to behave and is yours; SpokenReadablesCharacter is what a particular character has heard,
+# so an alt walking into the same library is read to rather than met with silence.
+## Dependencies: Spoken
+# Spoken is what this module runs on, and ships in the same zip.
+## OptionalDeps: SpokenReadablesAudio
+# The pack is not a registration mechanism: it registers itself into SpokenReadablesAudioPacks and
+# Audio.lua walks that on demand, so this is load order only.
+## IconTexture: Interface\AddOns\Spoken_Readables\Textures\AddonIcon.tga
+## Group: Spoken
+## X-License: Addon code MIT. Book text is Blizzard's, extracted from the game.
+
+Checksum.lua
+Data\Books.lua
+Data\Places.lua
+Locale\enUS.lua
+Locale\deDE.lua
+Locale\esES.lua
+Locale\frFR.lua
+Locale\ptBR.lua
+Locale\ruRU.lua
+Locale\koKR.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+Core.lua
+Language.lua
+Opener.lua
+Reader.lua
+Contribute.lua
+Audio.lua
+Playlist.lua
+UI\Options.lua
+UI\PlayButton.lua
+UI\CopyLink.lua
+UI\Readables.lua
+UI\DialogueUIBook.lua
+Events.lua
+Commands.lua

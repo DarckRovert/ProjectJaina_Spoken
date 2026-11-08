@@ -1,0 +1,20 @@
+## Interface: 30300
+## Title: |cffffd10dSpoken|r |cff66ccffQuests (TuWoW)|r
+## Notes: Diálogos de misiones y charlas leídos en voz alta a través de Spoken. Adaptado para TuWoW (3.3.5a + ForeverUI).
+## Notes-esES: Diálogos de misiones y charlas leídos en voz alta a través de Spoken. Adaptado para TuWoW (3.3.5a + ForeverUI).
+## Notes-esMX: Diálogos de misiones y charlas leídos en voz alta a través de Spoken. Adaptado para TuWoW (3.3.5a + ForeverUI).
+## Version: 3.8.3
+## IconTexture: Interface\AddOns\Spoken_Quests\icon.tga
+## SavedVariables: SpokenQuestsSettings
+## Dependencies: Spoken
+## OptionalDeps: ServerSystems, DialogueUI, Immersion, Questie-335, Questie
+## Group: Spoken
+## X-Part-Of: Spoken
+## X-VoiceOver-Player: 1
+
+embeds.xml
+addon.xml
+Contribute.xml
+Gossip\Gossip.xml
+Locale\Names\Names.xml
+Compendium.xml

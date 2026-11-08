@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary, backup & log files
+*.tmp
+*.bak
+*~
+*.log
+dist/
+*.zip
+
+# Gemini & Agent workspace notes
+.gemini/
+

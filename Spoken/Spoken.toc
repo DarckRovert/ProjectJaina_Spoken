@@ -1,0 +1,19 @@
+## Interface: 30300
+## Title: |cffffd10dSpoken|r |cff66ccff(TuWoW)|r
+## Notes: Lee el juego en voz alta: Misiones, Charlas, Lugares y Lecturas. Adaptado para TuWoW (3.3.5a + ForeverUI).
+## Notes-esES: Lee el juego en voz alta: Misiones, Charlas, Lugares y Lecturas. Adaptado para TuWoW (3.3.5a + ForeverUI).
+## Notes-esMX: Lee el juego en voz alta: Misiones, Charlas, Lugares y Lecturas. Adaptado para TuWoW (3.3.5a + ForeverUI).
+## Version: 3.8.3
+## IconTexture: Interface\AddOns\Spoken\icon.tga
+## SavedVariables: SpokenSettings
+## OptionalDeps: ServerSystems, DialogueUI, EllesmereUI, Questie-335, Questie
+## Group: Spoken
+## X-Part-Of: Spoken
+## X-Spoken-Player: 1
+
+Compat335.lua
+embeds.xml
+addon.xml
+Transcript.xml
+Contribute.xml
+Compendium.xml

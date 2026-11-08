@@ -1,0 +1,87 @@
+## Interface: 30300
+## Title: |cffffd10dSpoken|r |cff66ccffPlaces (TuWoW)|r
+## Notes: Historia de zonas y subzonas en el mapa del mundo, leÃ­da en voz alta a travÃ©s de Spoken (TuWoW).
+## Notes-esES: Historia de zonas y subzonas en el mapa del mundo, leÃ­da en voz alta a travÃ©s de Spoken (TuWoW).
+## Notes-esMX: Historia de zonas y subzonas en el mapa del mundo, leÃ­da en voz alta a travÃ©s de Spoken (TuWoW).
+## Version: 3.8.3
+## Author: rusty
+## SavedVariables: SpokenPlacesSettings, SpokenZonesSettings
+## SavedVariablesPerCharacter: SpokenPlacesCharacter, SpokenZonesCharacter
+## LoadSavedVariablesFirst: true
+# ^ load-bearing beyond convenience: the generated data files under Data/ ask
+# Language.lua which language to build a table for, and it can only answer that
+# early because SpokenPlacesSettings is already populated. Without this line every player
+# silently reads English.
+## Dependencies: Spoken
+# Spoken is what this module runs on, and ships in the same zip.
+## OptionalDeps: SpokenPlacesAudio, ZoneLoreAudio, ZoneLoreAudio64
+# The packs are not a registration mechanism: they register themselves into
+# SpokenPlacesAudioPacks and Audio.lua walks that on demand, so this list is load order only.
+#
+# Both pack folder names are listed: SpokenPlacesAudio is what ships now, ZoneLoreAudio
+# what a player installed before the rename, and ZoneLoreAudio64 the retired smaller
+# tier. A name here that nobody has installed costs nothing.
+## IconTexture: Interface\AddOns\Spoken_Places\Textures\AddonIcon.tga
+## Group: Spoken
+## X-License: Addon code MIT. Zone lore text from warcraft.wiki.gg, CC BY-SA 4.0.
+## X-Credits: Lore text sourced from warcraft.wiki.gg contributors (CC BY-SA 4.0).
+
+
+# Data\Languages.lua first: it is what Language.lua reads to decide which
+# language is being read, and everything after that guards itself on the answer.
+Data\Languages.lua
+Language.lua
+Locale\enUS.lua
+Locale\deDE.lua
+Locale\esES.lua
+Locale\frFR.lua
+Locale\ptBR.lua
+Locale\ruRU.lua
+Locale\koKR.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+Core.lua
+Audio.lua
+Contribute.lua
+Autoplay.lua
+Discovery.lua
+Data\enUS\Zones.lua
+Data\enUS\Subzones.lua
+# Keep the selected lore and caption text for installed voices. Other languages return early.
+Data\deDE\Zones.lua
+Data\deDE\Subzones.lua
+Data\esES\Zones.lua
+Data\esES\Subzones.lua
+Data\esMX\Zones.lua
+Data\esMX\Subzones.lua
+Data\frFR\Zones.lua
+Data\frFR\Subzones.lua
+Data\ptBR\Zones.lua
+Data\ptBR\Subzones.lua
+Data\ruRU\Zones.lua
+Data\ruRU\Subzones.lua
+Data\koKR\Zones.lua
+Data\koKR\Subzones.lua
+Data\zhCN\Zones.lua
+Data\zhCN\Subzones.lua
+Data\zhTW\Zones.lua
+Data\zhTW\Subzones.lua
+Data\Pictures.lua
+Data\deDE\Aliases.lua
+Data\esES\Aliases.lua
+Data\esMX\Aliases.lua
+Data\frFR\Aliases.lua
+Data\ptBR\Aliases.lua
+Data\ruRU\Aliases.lua
+Data\koKR\Aliases.lua
+Data\zhCN\Aliases.lua
+Data\zhTW\Aliases.lua
+Data\ForeverAreas.lua
+Data\AreaZones.lua
+UI\CopyLink.lua
+UI\LorePage.lua
+UI\MapPanel.lua
+UI\SubzoneClick.lua
+UI\MapHighlight.lua
+UI\LoreWindow.lua
+UI\Options.lua
