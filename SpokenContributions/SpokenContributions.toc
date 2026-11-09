@@ -1,7 +1,8 @@
 ## Interface: 30300
-## Title: |cffffd10dSpoken|r |cff66ccffContributions (TuWoW)|r
-## Notes: Registro de líneas de voz recolectadas para TuWoW.
+## Title: |cFFD4AF37Project Jaina|r - |cffffd10dSpoken Contributions|r (Telemetría de Diálogos)
+## Notes: Registro de líneas de voz recolectadas para Project Jaina (JainaCore 3.3.5a).
 ## Version: 3.8.3
+## DefaultState: enabled
 ## SavedVariables: SpokenContributionsDB
 ## IconTexture: Interface\AddOns\SpokenContributions\icon.tga
 ## Group: Spoken

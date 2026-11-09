@@ -1,36 +1,19 @@
 ## Interface: 30300
-## Title: |cffffd10dSpoken|r |cff66ccffBosses (TuWoW)|r
-## Notes: Los jefes de todas las mazmorras y bandas, y sus historias, en el Compendio de Azeroth (TuWoW).
-## Notes-esES: Los jefes de todas las mazmorras y bandas, y sus historias, en el Compendio de Azeroth (TuWoW).
-## Notes-esMX: Los jefes de todas las mazmorras y bandas, y sus historias, en el Compendio de Azeroth (TuWoW).
+## Title: |cFFD4AF37Project Jaina|r - |cffffd10dSpoken Bosses|r (Crónicas de Jefes)
+## Notes: Los jefes de todas las mazmorras y bandas, y sus historias, en el Compendio de Azeroth de Project Jaina (JainaCore 3.3.5a).
+## Notes-esES: Los jefes de todas las mazmorras y bandas, y sus historias, en el Compendio de Azeroth de Project Jaina (JainaCore 3.3.5a).
+## Notes-esMX: Los jefes de todas las mazmorras y bandas, y sus historias, en el Compendio de Azeroth de Project Jaina (JainaCore 3.3.5a).
 ## Version: 3.8.3
-## Author: Nucabe
+## DefaultState: enabled
+## Author: Nucabe (Adaptado para Project Jaina)
 ## Dependencies: Spoken
 ## OptionalDeps: SpokenBossesAudio
 ## SavedVariables: SpokenBossesSettings
 ## SavedVariablesPerCharacter: SpokenBossesCharacter
 # Spoken is what this module runs on, and ships in the same zip.
-## IconTexture: Interface\AddOns\Spoken\icon.tga
 ## Group: Spoken
 ## X-Part-Of: Spoken
-## X-License: Addon code MIT. Boss names are Blizzard's, from the game's own tables.
+## IconTexture: Interface\AddOns\Spoken_Bosses\icon.tga
 
-Locale\enUS.lua
-Locale\deDE.lua
-Locale\esES.lua
-Locale\frFR.lua
-Locale\ptBR.lua
-Locale\ruRU.lua
-Locale\koKR.lua
-Locale\zhCN.lua
-Locale\zhTW.lua
-Core.lua
-Data\Bosses.lua
-Data\Creatures.lua
-Data\Stories.lua
-Audio.lua
-UI\Bosses.lua
-UI\CopyLink.lua
-UI\Options.lua
-Story.lua
-Events.lua
+embeds.xml
+addon.xml

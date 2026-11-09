@@ -1,9 +1,10 @@
 ## X-SpokenQuests-Language: esES
 
 ## Interface: 30300
-## Title: Spoken Quests Audio: Español (TuWoW)
-## Notes: Paquete de audio y voces en español para misiones y diálogos de TuWoW.
+## Title: |cFFD4AF37Project Jaina|r - |cffffd10dSpoken Audio Misiones|r (esES)
+## Notes: Paquete de audio y voces en español para misiones y diálogos de Project Jaina (JainaCore 3.3.5a). Créditos a TuWoW (Zequiel Bogado).
 ## Version: 0.0.6
+## DefaultState: enabled
 ## IconTexture: Interface\AddOns\SpokenQuestsAudio_esES\icon.tga
 ## LoadOnDemand: 1
 ## Group: Spoken
