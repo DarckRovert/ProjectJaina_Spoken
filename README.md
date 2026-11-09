@@ -1,116 +1,112 @@
-# Spoken — TuWoW Edition (WoW 3.3.5a)
+# Project Jaina — Spoken (WoW 3.3.5a)
 
-[![WoW Version](https://img.shields.io/badge/WoW-3.3.5a%20(Build%2012340)-blue.svg)](https://tuwow.com)
-[![Interface](https://img.shields.io/badge/Interface-30300-orange.svg)](https://tuwow.com)
-[![Platform](https://img.shields.io/badge/Server-TuWoW%20Server-red.svg)](https://tuwow.com)
-[![Language](https://img.shields.io/badge/Audio-Espa%C3%B1ol%20(esES%20%2F%20esMX)-brightgreen.svg)](https://tuwow.com)
+[![WoW Version](https://img.shields.io/badge/WoW-3.3.5a%20(Build%2012340)-0078D7.svg)](https://github.com/DarckRovert/ProjectJaina_Spoken)
+[![Interface](https://img.shields.io/badge/Interface-30300-orange.svg)](https://github.com/DarckRovert/ProjectJaina_Spoken)
+[![Ecosystem](https://img.shields.io/badge/Ecosistema-Project%20Jaina%20(JainaCore)-D4AF37.svg)](https://github.com/DarckRovert/ProjectJaina_Spoken)
+[![Audio](https://img.shields.io/badge/Audio-Espa%C3%B1ol%20(esES%20%2F%20esMX)-brightgreen.svg)](https://github.com/DarckRovert/ProjectJaina_Spoken)
+[![License](https://img.shields.io/badge/License-GPL--3.0%20%2F%20CC%20BY--SA%204.0-lightgrey.svg)](file:///E:/ProjectJaina_Lab/AddOns/ProjectJaina_Spoken/NOTICE.md)
+[![Releases](https://img.shields.io/github/v/release/DarckRovert/ProjectJaina_Spoken?color=blue&label=Release)](https://github.com/DarckRovert/ProjectJaina_Spoken/releases)
 
-**Spoken: TuWoW Edition** es una suite de inmersión y narración sonora en vivo para World of Warcraft 3.3.5a (Wrath of the Lich King). Dota de voz hablada en español a los personajes no jugadores (PNJ), misiones, historias de zonas descubiertas, libros, cartas y jefes derrotados, transformando por completo la experiencia de juego con un estándar audiovisual moderno.
+**Project Jaina: Spoken** es la suite soberana de inmersión, narración sonora y doblaje de voz en vivo en español para **World of Warcraft 3.3.5a (Wrath of the Lich King / JainaCore)**. 
+
+Dota de voz hablada en español a los personajes no jugadores (PNJ), misiones, historias de zonas descubiertas en Azeroth, libros, pergaminos, placas de piedra y crónicas de jefes derrotados, elevando la experiencia de juego al estándar cinematográfico moderno sin sacrificar rendimiento.
 
 ---
 
 ## 🌟 Características Principales (Para Jugadores)
 
-* 📜 **Locución Completa de Misiones**: Escucha a los PNJ leerte sus encargos cuando aceptas, progresas o completas una misión.
-* 🗺️ **Historias de Zonas y Lugares**: Al explorar el mundo o abrir el mapa, Spoken te narra el lore y la historia del lugar en el que te encuentras.
-* 📖 **Lectura de Libros y Escritos**: Los libros del mundo, cartas, placas de piedra y pergaminos cuentan con locución cinematográfica.
-* 💀 **Crónicas de Jefes**: Al vencer a los jefes de mazmorras y bandas, un narrador relata la caída y trasfondo del enemigo.
-* 🏛️ **Compendio de Azeroth**: Enciclopedia visual interactiva con buscador rápido, filtros de contenido, porcentaje de exploración y registro de misiones completadas.
-* 🎭 **Estilos de Narración Personalizables**:
-  * **Solo subtítulos**: Subtítulos elegantes en la parte inferior de la pantalla con animación fluida de texto.
-  * **Ventana pequeña**: Barra flotante compacta con retrato del personaje, botones de reproducción y controles.
-  * **Ventana grande**: Estilo *Talking Head* cinematográfico con retrato 3D animado y caja de diálogo.
-  * **Solo voz**: Disfruta de la narración en segundo plano sin interrumpir tu interfaz gráfica.
-* 🛡️ **Protección Inteligente en Batalla**:
-  * Si entras en combate, la narración se pausa de manera instantánea y sin tirones de rendimiento.
-  * Al finalizar el combate, la locución se reanuda automáticamente desde el punto exacto.
+* 📜 **Locución Completa de Misiones (12,757 pistas)**: Los PNJ leen sus textos y diálogos con interpretación sonora cuando aceptas, avanzas o completas una misión.
+* 🗺️ **Lore Geográfico de Zonas y Lugares (844 pistas)**: Al explorar nuevas regiones de Kalimdor, Reinos del Este y Rasganorte, o al consultar el mapa, el narrador relata la historia y el trasfondo del lugar.
+* 📖 **Lectura de Libros, Cartas y Escritos (1,174 pistas)**: Lectura cinematográfica de todos los tomos, notas, cartas y pergaminos distribuidos por el mundo de juego.
+* 💀 **Crónicas de Jefes**: Al derrotar jefes en mazmorras y bandas, un narrador épico relata la caída y el destino del antagonista.
+* 🏛️ **Compendio Interactivo de Azeroth**: Enciclopedia visual accesible desde el juego (`/spoken compendium`) con buscador rápido, filtros por zona, medidor de misiones completadas y archivo sonoro.
+* 🎭 **4 Modos de Presentación Visual**:
+  * **Solo subtítulos**: Subtítulos dinámicos estilo cine en la parte inferior de la pantalla.
+  * **Ventana flotante compacta**: Mini-barra con avatar del interlocutor y controles multimedia.
+  * **Talking Head cinematográfico**: Ventana estilo Retail con busto 3D animado del PNJ y caja de diálogo.
+  * **Solo voz**: Locución limpia en segundo plano sin alterar la interfaz de usuario.
+* 🛡️ **Protección Inteligente de Combate**:
+  * Si entras en combate, el audio se silencia **instantáneamente en 0.00 ms**.
+  * Al salir de combate, la locución se reanuda de forma transparente desde el segundo exacto.
 
 ---
 
-## 🎮 Comandos y Atajos Rápidos
+## 💻 Arquitectura e Ingeniería 3.3.5a (Estándar L9)
 
-Puedes controlar Spoken desde el chat del juego o mediante el icono del minimapa:
+Spoken ha sido optimizado y blindado a bajo nivel para el motor de **World of Warcraft 3.3.5a (Build 12340)** y la arquitectura de **JainaCore**:
+
+### 1. Motor de Audio FMOD de Latencia Cero (`PlayMusic` Stream Engine)
+* **Limitación Clásica en 3.3.5a**: `PlaySoundFile()` descarta el manejador de canal y el cliente carece de la API `StopSound()` de versiones posteriores. Forzar el cese de sonido mediante reinicio de audio (`Sound_GameSystem_RestartSoundSystem()`) producía congelamiento severo de **~350 ms** por ejecución de `OsSleep(200)` en C++.
+* **Solución Arquitectónica**: Implementación en `SoundUtils.lua` utilizando la API de streaming `PlayMusic(path)` (`0x4c9110`), cuyo canal se almacena en memoria global (`0x00B4AC44`). Esto permite ejecutar `StopMusic()` (`0x985a10`), logrando un **corte instantáneo en 0.00 ms con 0 caídas de FPS y sin tocar FMOD**.
+* **Gestión Dinámica de Volumen**: Sincronización continua de niveles de audio respetando `Sound_MusicVolume` y `Sound_EnableMusic`.
+
+### 2. Capa de Compatibilidad y Polyfills (`Compat335.lua`)
+* **API de Misiones (`C_QuestLog`)**: Adaptación robusta para el retorno de 9 argumentos de `GetQuestLogTitle` en WotLK, evitando el descarte erróneo de misiones activas como encabezados. Polyfill seguro de `GetQuestID()`.
+* **API de Mapas (`C_Map`)**: Matriz de traducción bidireccional entre identificadores modernos `uiMapID` y los `areaID` clásicos del cliente 3.3.5a.
+* **Metatablas de Frames**: Polyfills de bajo nivel para `SetColorTexture()`, `SetShown()`, `SetSize()` y soporte retroactivo de `BackdropTemplate`.
+* **Aislamiento de Taint**: Ventana de configuración standalone en estrato `HIGH`, desacoplada de `InterfaceOptionsFrame` para garantizar inmunidad total contra bloqueos de acción durante el combate.
+
+---
+
+## 📁 Estructura Modular del Ecosistema (9 Carpetas)
+
+```
+ProjectJaina_Spoken/
+├── Spoken/                    # Núcleo: motor de audio FMOD, compendio, opciones y subtítulos
+├── Spoken_Bosses/             # Módulo de crónicas y trasfondo de jefes derrotados
+├── Spoken_Places/             # Módulo de historia geográfica, zonas y subzonas
+├── Spoken_Quests/             # Módulo de hooks de eventos para misiones y diálogos (Gossip)
+├── Spoken_Readables/          # Módulo de lectura sonora de libros, cartas y placas
+├── SpokenContributions/       # Módulo de telemetría y recolección de diálogos
+├── SpokenPlacesAudio_esMX/    # Banco de voces de lugares en español (844 pistas OGG, 450 MB)
+├── SpokenQuestsAudio_esES/    # Banco de voces de misiones en español (12,757 pistas OGG, 1.29 GB)
+└── SpokenReadablesAudio_esMX/ # Banco de voces de lecturas en español (1,174 pistas OGG, 487 MB)
+```
+
+---
+
+## 📥 Descarga e Instalación
+
+### Método 1: Despliegue Automatizado para Desarrolladores (Clúster Jaina)
+Si dispones del repositorio en tu máquina local:
+1. Ejecuta el script maestro:
+   ```cmd
+   Deploy_To_Client.bat
+   ```
+2. El script creará automáticamente las 9 uniones NTFS (`mklink /J`) tanto en tu cliente canónico FHD como en la distribución pública compartida, consumiendo **0.00 bytes** de espacio físico en disco.
+
+### Método 2: Instalación Manual para Jugadores
+1. Ve a la sección de **[Releases Oficiales](https://github.com/DarckRovert/ProjectJaina_Spoken/releases)** de este repositorio.
+2. Descarga los paquetes `.zip` de la suite:
+   * **Parte 1 (Motor Core y Misiones)**: `TuWoW_Spoken_Core_y_Misiones.zip` o `ProjectJaina_Spoken_Core_y_Misiones_v3.8.3.zip` (~1.28 GB).
+   * **Parte 2 (Lugares y Lecturas)**: `TuWoW_Spoken_Lugares_y_Lecturas.zip` o `ProjectJaina_Spoken_Lugares_y_Lecturas_v3.8.3.zip` (~980 MB).
+3. Descomprime el contenido directamente en la carpeta de complementos de tu cliente:
+   ```
+   World of Warcraft / Interface / AddOns /
+   ```
+4. Comprueba que las 9 carpetas queden ubicadas en `Interface / AddOns /`.
+5. Inicia el cliente de World of Warcraft; los 9 módulos cuentan con `DefaultState: enabled` y se cargarán de forma completamente automática.
+
+---
+
+## 🎮 Comandos en el Chat
 
 | Comando | Acción |
 | :--- | :--- |
-| `/spoken` o `/spoken settings` | Abre la ventana principal de configuración moderna de Spoken. |
-| `/spoken compendium` | Abre el Compendio de Azeroth (Misiones, Lugares, Lecturas, Jefes). |
-| `/spoken play` | Reproduce o reanuda la narración actual. |
+| `/spoken` o `/spoken settings` | Abre el panel principal de configuración sonora y visual. |
+| `/spoken compendium` | Abre el Compendio Interactivo de Azeroth (Misiones, Zonas, Libros y Jefes). |
+| `/spoken play` | Reproduce o reanuda la narración activa. |
 | `/spoken pause` | Pausa temporalmente el audio en curso. |
-| `/spoken stop` | Detiene la locución activa y limpia la lista de espera. |
-| `/spoken skip` | Salta al siguiente diálogo en cola. |
+| `/spoken stop` | Detiene inmediatamente la locución y limpia la cola de diálogos. |
+| `/spoken skip` | Salta a la siguiente pista de audio encolada. |
 
-> **Consejo**: Puedes asignar atajos de teclado para estas funciones desde el menú de juego: **ESC > Teclado > sección Spoken**.
-
----
-
-## 💻 Sección Técnica (Arquitectura e Ingeniería 3.3.5a)
-
-Esta versión de Spoken ha sido portada y optimizada específicamente para el motor de **World of Warcraft 3.3.5a (Build 12340 / Interface 30300)** y el cliente de **TuWoW**, garantizando rendimiento extremo, cero tirones de FPS y compatibilidad nativa con sistemas modernos como ForeverUI.
-
-### 1. Pipeline de Audio FMOD de Latencia Cero (`PlayMusic` Stream Engine)
-* **El Problema en 3.3.5a**: El cliente clásico de WotLK reproduce sonidos externos mediante `PlaySoundFile(path, channel)` asociándolos al canal interno `SCRIPTSOUND`. En esta versión del motor, `PlaySoundFile` descarta el puntero del canal tras iniciar la reproducción y carece de la función `StopSound(handle)` de retail. La única vía nativa que existía para forzar el cese del audio era llamar a `Sound_GameSystem_RestartSoundSystem()`, la cual ejecuta internamente en C++ un `OsSleep(200)` seguido del reinicio completo de FMOD, causando una congelación severa del juego (~350 ms) cada vez que el usuario pulsaba "Detener" o entraba en combate.
-* **La Solución en Spoken TuWoW**: Se implementó una arquitectura en `SoundUtils.lua` que utiliza la API de streaming `PlayMusic(path)`. Ambas funciones comparten la misma rutina base C++ en el ejecutable (`0x4c9110`), pero `PlayMusic` almacena su handle en memoria global (`0x00B4AC44`). Esto permite ejecutar `StopMusic()` (`0x985a10`), logrando un **corte y fade-out instantáneo en 0.00 ms sin reiniciar FMOD y con cero caídas de FPS**.
-* **Gestión de Volúmenes Dinámica**: Spoken sincroniza los niveles de audio en tiempo real preservando las preferencias del jugador en `Sound_MusicVolume` y `Sound_EnableMusic`, restaurándolas fielmente al terminar o salir del juego.
-
-### 2. Capa de Compatibilidad y Polyfills (`Compat335.lua`)
-Dado que el código original de Spoken utilizaba APIs de versiones modernas de World of Warcraft, se construyó una suite de emulación de bajo nivel:
-* **API de Misiones (`C_QuestLog`)**:
-  * Implementación de soporte para el retorno de **9 valores** de `GetQuestLogTitle` en WotLK (`title, level, questTag, suggestedGroup, isHeader, isCollapsed, isComplete, isDaily, questID`), corrigiendo fallos de desplazamiento donde las misiones activas eran descartadas como encabezados.
-  * Sincronización bidireccional de misiones completadas mediante eventos `QUEST_QUERY_COMPLETE`, hooks seguros a `GetQuestReward` y lectura cruzada con la base de datos de traducciones de Questie.
-  * Polyfill robusto de `GetQuestID()` que resuelve el identificador numérico de la misión incluso en ventanas emergentes de aceptación (`QUEST_DETAIL`) sin causar taints.
-* **API de Mapas y Áreas (`C_Map` / `C_MapExplorationInfo`)**:
-  * Tabla de traducción bidireccional entre los `uiMapID` modernos (ej. Dun Morogh = 1426, Kalimdor = 1414) y los identificadores de área clásicos de 3.3.5a (`areaID`), permitiendo que el Compendio y las alertas de zona funcionen transparentemente.
-* **UI & Rendering Polyfills**:
-  * Soporte de metatablas para `Frame:SetColorTexture()`, `Frame:SetShown()`, `Frame:SetSize()` y emulación de `BackdropTemplate`.
-  * Medición diferida de fontes TrueType (`Inter-Medium.ttf`) con protección ante alturas de fuente `0` en frames recién construidos.
-
-### 3. Interfaz Desacoplada y Prevención de Taint
-* **Ventana de Opciones Standalone (`SpokenStandaloneWindow.lua`)**: Diseñada como una interfaz independiente en estrato `HIGH`, con navegación lateral por pestañas, buscador integrado e inspectores en tiempo real, evitando modificar los paneles protegidos de `InterfaceOptionsFrame` durante el combate.
-* **Estrato Dinámico en Vista Previa**: Durante la previsualización de subtítulos o estilos de ventana en la configuración, los frames ascienden a estrato `FULLSCREEN_DIALOG` para mostrarse siempre sobre las ventanas de opciones y restauran su estrato base automáticamente al cerrar.
+> **Atajos de Teclado**: Puedes configurar teclas rápidas desde el menú del juego: **ESC > Teclado > sección Spoken**.
 
 ---
 
-## 📁 Estructura del Repositorio (9 Carpetas)
+## 📜 Licencia, Gobernanza y Reconocimiento Upstream
 
-```
-Spoken/
-├── Spoken/                    # Núcleo del addon: motor de audio, interfaz, subtítulos y opciones
-├── Spoken_Bosses/             # Módulo de narraciones épicas al derrotar jefes
-├── Spoken_Places/             # Módulo de lore geográfico, zonas y subzonas
-├── Spoken_Quests/             # Módulo de locución y seguimiento de misiones y diálogos (Gossip)
-├── Spoken_Readables/          # Módulo de libros del mundo, pergaminos, notas y placas
-├── SpokenContributions/       # Módulo para registrar y exportar textos/diálogos
-├── SpokenPlacesAudio_esMX/    # Paquete de audio de zonas y lugares en español
-├── SpokenQuestsAudio_esES/    # Paquete de audio de misiones en español
-└── SpokenReadablesAudio_esMX/ # Paquete de audio de libros y lecturas en español
-```
-
----
-
-## 🛠️ Instalación para Desarrolladores
-
-1. Clona este repositorio dentro de tu directorio de addons:
-   ```bash
-   git clone https://github.com/zequielbogado-alt/Spoken.git
-   ```
-2. Asegúrate de que las 9 carpetas del addon queden ubicadas en:
-   ```
-   World of Warcraft/Interface/AddOns/
-     ├── Spoken/
-     ├── Spoken_Bosses/
-     ├── Spoken_Places/
-     ├── Spoken_Quests/
-     ├── Spoken_Readables/
-     ├── SpokenContributions/
-     ├── SpokenPlacesAudio_esMX/
-     ├── SpokenQuestsAudio_esES/
-     └── SpokenReadablesAudio_esMX/
-   ```
-3. Inicia el cliente de WoW o ejecuta `/reload` si ya te encuentras dentro del juego.
-
----
-
-## 📜 Licencia y Créditos
-* **Spoken Original**: Desarrollado por el equipo de Spoken / VoiceOver.
-* **Duende Loca for TuWoW Adaptation & WotLK 3.3.5a Backport**: Optimizado y adaptado por TuWoW.
+* **Project Jaina Suite Integration**: Desarrollado e integrado por **DarckRovert & Antigravity (Claude Mythos 5 L9)** bajo los estándares soberanos de [`GOVERNANCE.md`](file:///E:/ProjectJaina_Lab/AddOns/ProjectJaina_Spoken/GOVERNANCE.md) y [`AGENTS.md`](file:///E:/ProjectJaina_Lab/AddOns/ProjectJaina_Spoken/AGENTS.md).
+* **Adaptación WotLK 3.3.5a y Generación de Voces**: Agradecimiento y reconocimiento especial a **Zequiel Bogado (`zequielbogado-alt/Spoken`)** y a la comunidad de **TuWoW** por el port a 3.3.5a, la optimización FMOD y la laboriosa generación del catálogo sonoro en español.
+* **Proyecto Original VoiceOver / Spoken**: Créditos a los autores y contribuidores originales de VoiceOver / Spoken.
+* **Detalle Completo de Licencias**: Consulta el archivo oficial [`NOTICE.md`](file:///E:/ProjectJaina_Lab/AddOns/ProjectJaina_Spoken/NOTICE.md).
