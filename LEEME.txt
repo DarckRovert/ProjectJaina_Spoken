@@ -1,13 +1,17 @@
 ================================================================================
-                    SPOKEN: TUWOW EDITION (WoW 3.3.5a)
+                    PROJECT JAINA — SPOKEN (WoW 3.3.5a)
 ================================================================================
-Addon de Narración y Locución en Vivo en Español para World of Warcraft 3.3.5a.
+Suite Soberana de Narración y Doblaje de Voz en Vivo en Español para World of Warcraft 3.3.5a.
 Dota de voces y actuación sonora a PNJ, misiones, historias de zonas, libros y jefes.
+Repositorio Oficial: https://github.com/DarckRovert/ProjectJaina_Spoken
 
 INSTALACIÓN RÁPIDA:
-1. Extrae el contenido de esta carpeta dentro de tu directorio de World of Warcraft:
-   TuWoW-Client/Interface/AddOns/
-2. Verifica que las siguientes 9 carpetas queden directamente dentro de AddOns:
+1. Para desarrolladores de Project Jaina:
+   Ejecuta Deploy_To_Client.bat para enlazar las 9 carpetas vía uniones NTFS con 0 bytes.
+2. Para jugadores estándar:
+   Extrae el contenido de los archivos .zip directamente en:
+   World of Warcraft/Interface/AddOns/
+3. Verifica que las siguientes 9 carpetas queden directamente dentro de AddOns:
    - Interface/AddOns/Spoken/Spoken.toc
    - Interface/AddOns/Spoken_Bosses/Spoken_Bosses.toc
    - Interface/AddOns/Spoken_Places/Spoken_Places.toc
@@ -17,14 +21,11 @@ INSTALACIÓN RÁPIDA:
    - Interface/AddOns/SpokenPlacesAudio_esMX/SpokenPlacesAudio_esMX.toc
    - Interface/AddOns/SpokenQuestsAudio_esES/SpokenQuestsAudio_esES.toc
    - Interface/AddOns/SpokenReadablesAudio_esMX/SpokenReadablesAudio_esMX.toc
-3. En la pantalla de selección de personajes, haz clic en el botón "Accesorios"
-   (AddOns) en la esquina inferior izquierda y asegúrate de marcar:
-   [x] Cargar accesorios antiguos (Load out of date AddOns).
-4. Entra al juego. Si ya estabas dentro, escribe en el chat: /reload
+4. Todos los módulos cuentan con ## DefaultState: enabled y se cargarán de forma automática.
 
 COMANDOS EN EL CHAT:
 - /spoken                 : Abre la ventana de configuración moderna de Spoken.
-- /spoken compendio       : Abre el Compendio de Azeroth (misiones, zonas, libros).
+- /spoken compendium      : Abre el Compendio de Azeroth (misiones, zonas, libros y jefes).
 - /spoken play            : Reproduce o reanuda la narración actual.
 - /spoken pause           : Pausa temporalmente el audio activo.
 - /spoken stop            : Detiene el audio y limpia la cola de narraciones.
@@ -42,7 +43,8 @@ ATAJOS DE TECLADO:
 Puedes asignar teclas para pausar, detener o saltar diálogos entrando a:
 Menú del Juego (ESC) -> Teclado -> busca la sección "Spoken".
 
-SOPORTE Y ACTUALIZACIONES:
-Sitio web oficial de TuWoW: https://tuwow.com
+CRÉDITOS Y RECONOCIMIENTO UPSTREAM:
+- Integración en Project Jaina: DarckRovert & Antigravity L9.
+- Adaptación WotLK 3.3.5a y catálogo de audios en español: Zequiel Bogado (TuWoW).
+- Repositorio Upstream: https://github.com/zequielbogado-alt/Spoken
 ================================================================================
-
