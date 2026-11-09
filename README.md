@@ -80,6 +80,11 @@ Si dispones del repositorio en tu máquina local:
 2. Descarga los paquetes `.zip` de la suite:
    * **Parte 1 (Motor Core y Misiones)**: `TuWoW_Spoken_Core_y_Misiones.zip` o `ProjectJaina_Spoken_Core_y_Misiones_v3.8.3.zip` (~1.28 GB).
    * **Parte 2 (Lugares y Lecturas)**: `TuWoW_Spoken_Lugares_y_Lecturas.zip` o `ProjectJaina_Spoken_Lugares_y_Lecturas_v3.8.3.zip` (~980 MB).
+
+> 🌐 **Descarga Alternativa / Mirror de Alta Velocidad (MEGA)**:
+> Si experimentas lentitud o límites de cuota de descarga en GitHub, dispones del archivo completo oficial en MEGA:
+> 🔗 **[Descarga Directa en MEGA (Suite Completa Spoken)](https://mega.nz/file/5E0T2YoS#KOXXULZDztTR6E8GXcXNoLTQxhxk295eJ283sjsWLCs)**
+
 3. Descomprime el contenido directamente en la carpeta de complementos de tu cliente:
    ```
    World of Warcraft / Interface / AddOns /

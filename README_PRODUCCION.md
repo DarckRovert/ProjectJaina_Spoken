@@ -21,6 +21,10 @@ Enlaza las 9 carpetas vía uniones NTFS en los clientes canónicos con **0 bytes
 ### Opción B: Instalación Manual (Jugadores)
 1. Descarga los archivos `.zip` desde la sección de [Releases de GitHub](https://github.com/DarckRovert/ProjectJaina_Spoken/releases/tag/v3.8.3-tuwow).
 2. Descomprime ambos archivos dentro de tu carpeta de complementos:
+
+> 🌐 **Mirror Alternativo de Descarga (MEGA)**:
+> Si la descarga desde GitHub presenta saturación o lentitud, puedes descargar el paquete unificado completo directamente desde:
+> 🔗 **[Descarga Directa en MEGA (Suite Completa Spoken)](https://mega.nz/file/5E0T2YoS#KOXXULZDztTR6E8GXcXNoLTQxhxk295eJ283sjsWLCs)**
    ```
    World of Warcraft/Interface/AddOns/
    ```

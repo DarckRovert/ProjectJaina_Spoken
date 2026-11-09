@@ -20,11 +20,11 @@ if exist "%TARGET_FHD%" (
             if exist "%TARGET_FHD%\%%M" (
                 echo     [*] Modulo %%M ya existe en FHD.
             ) else (
-                mklink /J "%TARGET_FHD%\%%M" "%SOURCE_DIR%\%%M" >nul
-                if errorlevel 0 (
+                mklink /J "%TARGET_FHD%\%%M" "%SOURCE_DIR%\%%M" >nul 2>&1
+                if not errorlevel 1 (
                     echo     [+] Union creada: %%M
                 ) else (
-                    echo     [FALLO] No se pudo crear union: %%M
+                    echo     [FALLO] No se pudo crear union: %%M (Requiere permisos de Administrador)
                 )
             )
         )
@@ -41,11 +41,11 @@ if exist "%TARGET_PUB%" (
             if exist "%TARGET_PUB%\%%M" (
                 echo     [*] Modulo %%M ya existe en Distribucion Publica.
             ) else (
-                mklink /J "%TARGET_PUB%\%%M" "%SOURCE_DIR%\%%M" >nul
-                if errorlevel 0 (
+                mklink /J "%TARGET_PUB%\%%M" "%SOURCE_DIR%\%%M" >nul 2>&1
+                if not errorlevel 1 (
                     echo     [+] Union creada: %%M
                 ) else (
-                    echo     [FALLO] No se pudo crear union: %%M
+                    echo     [FALLO] No se pudo crear union: %%M (Requiere permisos de Administrador)
                 )
             )
         )
