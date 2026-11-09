@@ -170,6 +170,10 @@ function SoundUtils:PlaySound(clip, channel)
             self._origEnableMusic = GetCVar("Sound_EnableMusic") or "1"
             self._origMusicVolume = tonumber(GetCVar("Sound_MusicVolume")) or 0.5
             self._musicSaved = true
+            -- Detección de Kirin Tor Radio activa para reanudación automática
+            if _G.ProjectJaina_Radio_DB and _G.ProjectJaina_Radio_DB.isPlaying and _G.ProjectJaina_Radio_DB.mode == "local" then
+                self._resumeRadioOnEnd = true
+            end
         end
         if tonumber(GetCVar("Sound_EnableMusic")) ~= 1 then
             SetCVar("Sound_EnableMusic", 1)
@@ -205,9 +209,15 @@ function SoundUtils:RestoreMusicImmediate()
         if self._origEnableMusic ~= nil then
             SetCVar("Sound_EnableMusic", self._origEnableMusic)
         end
+        local shouldResumeRadio = self._resumeRadioOnEnd
         self._musicSaved = nil
         self._origMusicVolume = nil
         self._origEnableMusic = nil
+        self._resumeRadioOnEnd = nil
+
+        if shouldResumeRadio and _G.ProjectJaina_Radio_DB and _G.ProjectJaina_Radio_DB.isPlaying and _G.SlashCmdList and _G.SlashCmdList["PROJECTJAINA_RADIO"] then
+            _G.SlashCmdList["PROJECTJAINA_RADIO"]("play")
+        end
     end
 end
 
@@ -247,9 +257,16 @@ function SoundUtils:StopSound(clip, fadeMs)
                     if self._origEnableMusic ~= nil then
                         SetCVar("Sound_EnableMusic", self._origEnableMusic)
                     end
+                    local shouldResumeRadio = self._resumeRadioOnEnd
                     self._musicSaved = nil
                     self._origMusicVolume = nil
                     self._origEnableMusic = nil
+                    self._resumeRadioOnEnd = nil
+
+                    -- Reanudar Kirin Tor Radio sin intervención del usuario
+                    if shouldResumeRadio and _G.ProjectJaina_Radio_DB and _G.ProjectJaina_Radio_DB.isPlaying and _G.SlashCmdList and _G.SlashCmdList["PROJECTJAINA_RADIO"] then
+                        _G.SlashCmdList["PROJECTJAINA_RADIO"]("play")
+                    end
                 end
             end, 0.55)
         elseif Sound_GameSystem_RestartSoundSystem then
