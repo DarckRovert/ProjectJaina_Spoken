@@ -9,8 +9,8 @@
 ## X-Part-Of: Spoken
 ## X-Child-Of: Spoken_Places
 ## X-License: Audio generated with ElevenLabs from warcraft.wiki.gg lore text (CC BY-SA 4.0).
-## X-SpokenQuests-Language: esMX
+## X-SpokenPlaces-Quality: high
+## X-SpokenPlaces-Bitrate: 128
+## X-SpokenPlaces-Language: esMX
 
-Module.lua
-Data\SoundLengthTable.lua
-Data\SoundTable.lua
+Data/Sounds.lua

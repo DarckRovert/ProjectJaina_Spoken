@@ -8,14 +8,35 @@
 ## Author: rusty (Adaptado para Project Jaina)
 ## SavedVariables: SpokenReadablesSettings, SpokenBooksSettings
 ## SavedVariablesPerCharacter: SpokenReadablesCharacter, SpokenBooksCharacter
-# Two tables, because they answer different questions. SpokenReadablesSettings is how you like the
-# addon to behave and is yours; SpokenReadablesCharacter is what a particular character has heard,
-# so an alt walking into the same library is read to rather than met with silence.
 ## Dependencies: Spoken
 ## OptionalDeps: SpokenReadablesAudio
 ## Group: Spoken
 ## X-Part-Of: Spoken
-## IconTexture: Interface\AddOns\Spoken_Readables\icon.tga
+## IconTexture: Interface\AddOns\Spoken_Readables\Textures\AddonIcon.tga
 
-embeds.xml
-addon.xml
+Checksum.lua
+Data\Books.lua
+Data\Places.lua
+Locale\enUS.lua
+Locale\deDE.lua
+Locale\esES.lua
+Locale\frFR.lua
+Locale\ptBR.lua
+Locale\ruRU.lua
+Locale\koKR.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+Core.lua
+Language.lua
+Opener.lua
+Reader.lua
+Contribute.lua
+Audio.lua
+Playlist.lua
+UI\Options.lua
+UI\PlayButton.lua
+UI\CopyLink.lua
+UI\Readables.lua
+UI\DialogueUIBook.lua
+Events.lua
+Commands.lua

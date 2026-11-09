@@ -9,14 +9,64 @@
 ## SavedVariables: SpokenPlacesSettings, SpokenZonesSettings
 ## SavedVariablesPerCharacter: SpokenPlacesCharacter, SpokenZonesCharacter
 ## LoadSavedVariablesFirst: true
-# ^ load-bearing beyond convenience: the generated data files under Data/ ask
-# Language.lua which language to build a table for, and it can only answer that
-# when SpokenPlacesSettings.Language is already known.
 ## Dependencies: Spoken
 ## OptionalDeps: SpokenPlacesAudio
 ## Group: Spoken
 ## X-Part-Of: Spoken
-## IconTexture: Interface\AddOns\Spoken_Places\icon.tga
+## IconTexture: Interface\AddOns\Spoken_Places\Textures\AddonIcon.tga
 
-embeds.xml
-addon.xml
+Data\Languages.lua
+Language.lua
+Locale\enUS.lua
+Locale\deDE.lua
+Locale\esES.lua
+Locale\frFR.lua
+Locale\ptBR.lua
+Locale\ruRU.lua
+Locale\koKR.lua
+Locale\zhCN.lua
+Locale\zhTW.lua
+Core.lua
+Audio.lua
+Contribute.lua
+Autoplay.lua
+Discovery.lua
+Data\enUS\Zones.lua
+Data\enUS\Subzones.lua
+Data\deDE\Zones.lua
+Data\deDE\Subzones.lua
+Data\esES\Zones.lua
+Data\esES\Subzones.lua
+Data\esMX\Zones.lua
+Data\esMX\Subzones.lua
+Data\frFR\Zones.lua
+Data\frFR\Subzones.lua
+Data\ptBR\Zones.lua
+Data\ptBR\Subzones.lua
+Data\ruRU\Zones.lua
+Data\ruRU\Subzones.lua
+Data\koKR\Zones.lua
+Data\koKR\Subzones.lua
+Data\zhCN\Zones.lua
+Data\zhCN\Subzones.lua
+Data\zhTW\Zones.lua
+Data\zhTW\Subzones.lua
+Data\Pictures.lua
+Data\deDE\Aliases.lua
+Data\esES\Aliases.lua
+Data\esMX\Aliases.lua
+Data\frFR\Aliases.lua
+Data\ptBR\Aliases.lua
+Data\ruRU\Aliases.lua
+Data\koKR\Aliases.lua
+Data\zhCN\Aliases.lua
+Data\zhTW\Aliases.lua
+Data\ForeverAreas.lua
+Data\AreaZones.lua
+UI\CopyLink.lua
+UI\LorePage.lua
+UI\MapPanel.lua
+UI\SubzoneClick.lua
+UI\MapHighlight.lua
+UI\LoreWindow.lua
+UI\Options.lua
