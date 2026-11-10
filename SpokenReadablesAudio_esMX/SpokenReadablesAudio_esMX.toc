@@ -10,4 +10,4 @@
 ## X-Child-Of: Spoken_Readables
 ## X-License: Audio generated with ElevenLabs from book text extracted from the game.
 
-Data/Sounds.lua
+Data\Sounds.lua

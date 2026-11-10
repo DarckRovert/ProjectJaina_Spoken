@@ -13,4 +13,4 @@
 ## X-SpokenPlaces-Bitrate: 128
 ## X-SpokenPlaces-Language: esMX
 
-Data/Sounds.lua
+Data\Sounds.lua
